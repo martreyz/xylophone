@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f6cb;
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.switch {
+  align-self: flex-start;
+  margin-top: 10%;
+  font-family: arial;
+  font-size: 20px;
+  color: white;
+  background-color: #8d8cc5;
+  padding: 10px;
+  border: 4px solid #6f6e9c;
+  box-sizing: border-box;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #6f6e9c;
+  outline: none;
+  transition: all ease 1s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.xilofon {
+  width: 60%;
+  height: 20%;
+  background-color: #8d8cc5;
+  border-radius: 20px;
+  border-bottom: 7px solid #6f6e9c;
+  border-right: 3px solid #6f6e9c;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: none;
+  &Keys {
+    width: 5%;
+    height: 120%;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 1%;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    text-transform: uppercase;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: none;
+    &::before {
+      content: "\\";
+      color: grey;
+      width: 20px;
+      height: 20px;
+      background-color: grey;
+      background: radial-gradient(circle, white, grey);
+      border: 2px solid grey;
+      box-sizing: border-box;
+      border-radius: 50%;
+      margin-bottom: 80%;
+    }
+    &::after {
+      content: "/";
+      color: grey;
+      width: 20px;
+      height: 20px;
+      background-color: grey;
+      background: radial-gradient(circle, white, grey);
+      border: 2px solid grey;
+      box-sizing: border-box;
+      border-radius: 50%;
+      margin-top: 80%;
+    }
+  }
+  &Key1 {
+    background-color: #e998c1;
+    border-bottom: 5px solid #c480a2;
+    border-right: 2px solid #c480a2;
+    color: #c480a2;
+  }
+  &Key2 {
+    background-color: #f6adcb;
+    height: 130%;
+    border-bottom: 5px solid #b57f95;
+    border-right: 2px solid #b57f95;
+    color: #b57f95;
+  }
+  &Key3 {
+    background-color: #f7b3c2;
+    height: 140%;
+    border-bottom: 5px solid #b8848f;
+    border-right: 2px solid #b8848f;
+    color: #b8848f;
+  }
+  &Key4 {
+    background-color: #fdd1b4;
+    height: 150%;
+    border-bottom: 5px solid #bd9c86;
+    border-right: 2px solid #bd9c86;
+    color: #bd9c86;
+  }
+  &Key5 {
+    background-color: #f0dec6;
+    height: 160%;
+    border-bottom: 5px solid #b0a392;
+    border-right: 2px solid #b0a392;
+    color: #b0a392;
+  }
+  &Key6 {
+    background-color: #e3efc9;
+    height: 170%;
+    border-bottom: 5px solid #a7b094;
+    border-right: 2px solid #a7b094;
+    color: #a7b094;
+  }
+  &Key7 {
+    background-color: #c7dcdf;
+    height: 180%;
+    border-bottom: 5px solid #8d9c9e;
+    border-right: 2px solid #8d9c9e;
+    color: #8d9c9e;
+  }
+  &Key8 {
+    background-color: #abcdd9;
+    height: 190%;
+    border-bottom: 5px solid #799099;
+    border-right: 2px solid #799099;
+    color: #799099;
+  }
+  &Key9 {
+    background-color: #c8cedc;
+    height: 200%;
+    border-bottom: 5px solid #8e929c;
+    border-right: 2px solid #8e929c;
+    color: #8e929c;
+  }
+  &Key10 {
+    background-color: #99d3df;
+    height: 210%;
+    border-bottom: 5px solid #6d969e;
+    border-right: 2px solid #6d969e;
+    color: #6d969e;
+  }
+  &Key11 {
+    background-color: #c18bbd;
+    height: 220%;
+    border-bottom: 5px solid #825e80;
+    border-right: 2px solid #825e80;
+    color: #825e80;
+  }
+  &Key12 {
+    background-color: #9f83bd;
+    height: 230%;
+    border-bottom: 5px solid #69567d;
+    border-right: 2px solid #69567d;
+    color: #69567d;
+  }
+  &Key13 {
+    background-color: #f7b3c2;
+    height: 240%;
+    border-bottom: 5px solid #b8848f;
+    border-right: 2px solid #b8848f;
+    color: #b8848f;
+  }
+  &Key14 {
+    background-color: #fdd1b4;
+    height: 250%;
+    border-bottom: 5px solid #bd9c86;
+    border-right: 2px solid #bd9c86;
+    color: #bd9c86;
+  }
+  &Key15 {
+    background-color: #f0dec6;
+    height: 260%;
+    border-bottom: 5px solid #b0a392;
+    border-right: 2px solid #b0a392;
+    color: #b0a392;
+  }
+}
+
+.mallet {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle, white, #cccccb);
+  &::before {
+    content: "";
+    position: absolute;
+    top: 55px;
+    transform: rotate(-20deg);
+    left: 90px;
+    height: 300px;
+    border-radius: 15px;
+    width: 10px;
+    background-color: brown;
+  }
+}
+
+.hidden {
+  display: none;
+}

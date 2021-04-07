@@ -1,0 +1,23 @@
+{
+  "name": "xylophone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w styles/ -o styles/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martreyz/xylophone.git"
+  },
+  "author": "martreyz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martreyz/xylophone/issues"
+  },
+  "homepage": "https://github.com/martreyz/xylophone#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
