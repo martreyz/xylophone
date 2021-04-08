@@ -38,21 +38,21 @@ const keyBoard = [
 
 //Notes audios:
 const notesArray = {
-  0: new Audio("/media/0.mp3"),
-  1: new Audio("/media/1.mp3"),
-  2: new Audio("/media/2.mp3"),
-  3: new Audio("/media/3.mp3"),
-  4: new Audio("/media/4.mp3"),
-  5: new Audio("/media/5.mp3"),
-  6: new Audio("/media/6.mp3"),
-  7: new Audio("/media/7.mp3"),
-  8: new Audio("/media/8.mp3"),
-  9: new Audio("/media/9.mp3"),
-  10: new Audio("/media/10.mp3"),
-  11: new Audio("/media/11.mp3"),
-  12: new Audio("/media/12.mp3"),
-  13: new Audio("/media/13.mp3"),
-  14: new Audio("/media/14.mp3"),
+  0: new Audio("/xylophone/media/0.mp3"),
+  1: new Audio("/xylophone/media/1.mp3"),
+  2: new Audio("/xylophone/media/2.mp3"),
+  3: new Audio("/xylophone/media/3.mp3"),
+  4: new Audio("/xylophone/media/4.mp3"),
+  5: new Audio("/xylophone/media/5.mp3"),
+  6: new Audio("/xylophone/media/6.mp3"),
+  7: new Audio("/xylophone/media/7.mp3"),
+  8: new Audio("/xylophone/media/8.mp3"),
+  9: new Audio("/xylophone/media/9.mp3"),
+  10: new Audio("/xylophone/media/10.mp3"),
+  11: new Audio("/xylophone/media/11.mp3"),
+  12: new Audio("/xylophone/media/12.mp3"),
+  13: new Audio("/xylophone/media/13.mp3"),
+  14: new Audio("/xylophone/media/14.mp3"),
 };
 
 let mallet = document.querySelector(".mallet");
