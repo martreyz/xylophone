@@ -1,17 +1,15 @@
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   background-color: #f3f6cb;
-  margin: 0.1px;
+  margin: 0px;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 .switch {
   align-self: flex-start;
@@ -27,11 +25,10 @@ body {
   box-shadow: 5px 5px 5px #6f6e9c;
   outline: none;
   transition: all ease 1s;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
 .switch:hover {
-  transform: scale(1.2);
-}
+  transform: scale(1.2); }
 
 .xilofon {
   width: 60%;
@@ -43,8 +40,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  cursor: none;
-}
+  cursor: none; }
+
 .xilofonKeys {
   width: 5%;
   height: 120%;
@@ -60,8 +57,8 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  cursor: none;
-}
+  cursor: none; }
+
 .xilofonKeys::before {
   content: "\\";
   color: grey;
@@ -72,8 +69,8 @@ body {
   border: 2px solid grey;
   box-sizing: border-box;
   border-radius: 50%;
-  margin-bottom: 80%;
-}
+  margin-bottom: 80%; }
+
 .xilofonKeys::after {
   content: "/";
   color: grey;
@@ -84,120 +81,119 @@ body {
   border: 2px solid grey;
   box-sizing: border-box;
   border-radius: 50%;
-  margin-top: 80%;
-}
+  margin-top: 80%; }
+
 .xilofonKey1 {
   background-color: #e998c1;
   border-bottom: 5px solid #c480a2;
   border-right: 2px solid #c480a2;
-  color: #c480a2;
-}
+  color: #c480a2; }
+
 .xilofonKey2 {
   background-color: #f6adcb;
   height: 130%;
   border-bottom: 5px solid #b57f95;
   border-right: 2px solid #b57f95;
-  color: #b57f95;
-}
+  color: #b57f95; }
+
 .xilofonKey3 {
   background-color: #f7b3c2;
   height: 140%;
   border-bottom: 5px solid #b8848f;
   border-right: 2px solid #b8848f;
-  color: #b8848f;
-}
+  color: #b8848f; }
+
 .xilofonKey4 {
   background-color: #fdd1b4;
   height: 150%;
   border-bottom: 5px solid #bd9c86;
   border-right: 2px solid #bd9c86;
-  color: #bd9c86;
-}
+  color: #bd9c86; }
+
 .xilofonKey5 {
   background-color: #f0dec6;
   height: 160%;
   border-bottom: 5px solid #b0a392;
   border-right: 2px solid #b0a392;
-  color: #b0a392;
-}
+  color: #b0a392; }
+
 .xilofonKey6 {
   background-color: #e3efc9;
   height: 170%;
   border-bottom: 5px solid #a7b094;
   border-right: 2px solid #a7b094;
-  color: #a7b094;
-}
+  color: #a7b094; }
+
 .xilofonKey7 {
   background-color: #c7dcdf;
   height: 180%;
   border-bottom: 5px solid #8d9c9e;
   border-right: 2px solid #8d9c9e;
-  color: #8d9c9e;
-}
+  color: #8d9c9e; }
+
 .xilofonKey8 {
   background-color: #abcdd9;
   height: 190%;
   border-bottom: 5px solid #799099;
   border-right: 2px solid #799099;
-  color: #799099;
-}
+  color: #799099; }
+
 .xilofonKey9 {
   background-color: #c8cedc;
   height: 200%;
   border-bottom: 5px solid #8e929c;
   border-right: 2px solid #8e929c;
-  color: #8e929c;
-}
+  color: #8e929c; }
+
 .xilofonKey10 {
   background-color: #99d3df;
   height: 210%;
   border-bottom: 5px solid #6d969e;
   border-right: 2px solid #6d969e;
-  color: #6d969e;
-}
+  color: #6d969e; }
+
 .xilofonKey11 {
   background-color: #c18bbd;
   height: 220%;
   border-bottom: 5px solid #825e80;
   border-right: 2px solid #825e80;
-  color: #825e80;
-}
+  color: #825e80; }
+
 .xilofonKey12 {
   background-color: #9f83bd;
   height: 230%;
   border-bottom: 5px solid #69567d;
   border-right: 2px solid #69567d;
-  color: #69567d;
-}
+  color: #69567d; }
+
 .xilofonKey13 {
   background-color: #f7b3c2;
   height: 240%;
   border-bottom: 5px solid #b8848f;
   border-right: 2px solid #b8848f;
-  color: #b8848f;
-}
+  color: #b8848f; }
+
 .xilofonKey14 {
   background-color: #fdd1b4;
   height: 250%;
   border-bottom: 5px solid #bd9c86;
   border-right: 2px solid #bd9c86;
-  color: #bd9c86;
-}
+  color: #bd9c86; }
+
 .xilofonKey15 {
   background-color: #f0dec6;
   height: 260%;
   border-bottom: 5px solid #b0a392;
   border-right: 2px solid #b0a392;
-  color: #b0a392;
-}
+  color: #b0a392; }
 
 .mallet {
   position: absolute;
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background: radial-gradient(circle, white, #cccccb);
-}
+  background: radial-gradient(circle, white, #cccccb); }
+
 .mallet::before {
   content: "";
   position: absolute;
@@ -207,9 +203,98 @@ body {
   height: 300px;
   border-radius: 15px;
   width: 10px;
-  background-color: brown;
-}
+  background-color: #8d8cc5; }
 
 .hidden {
-  display: none;
-}
+  display: none; }
+
+.header {
+  width: 98%;
+  position: fixed;
+  top: 0px;
+  font-size: 60px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  color: #8d8cc5;
+  height: min-content;
+  border-bottom: 1px solid #8d8cc5; }
+
+.footer {
+  position: fixed;
+  display: flex;
+  height: 50px;
+  width: 98%;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0px;
+  box-sizing: border-box;
+  border-top: #8d8cc5 1px solid; }
+
+.footer__menu {
+  display: flex;
+  align-items: center; }
+
+.footer__menuList {
+  display: flex;
+  margin: 0px;
+  padding: 0px; }
+
+.footer__menuList-github {
+  background-image: url("../images/github-alt-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s; }
+
+.footer__menuList-linkedin {
+  background-image: url("../images/linkedin-in-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s; }
+
+.footer__menuList-mail {
+  background-image: url("../images/envelope-solid.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s; }
+
+.footer__menuList-twitter {
+  background-image: url("../images/twitter-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s; }
+
+.footer__menuList-codepen {
+  background-image: url("../images/codepen-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s; }
+
+.footer__menuList-access {
+  padding: 10px;
+  text-decoration: none; }
+
+.small {
+  font-family: "VT323", monospace;
+  font-size: 15px;
+  color: #8d8cc5; }

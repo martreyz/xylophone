@@ -206,10 +206,105 @@ body {
     height: 300px;
     border-radius: 15px;
     width: 10px;
-    background-color: brown;
+    background-color: #8d8cc5;
   }
 }
 
 .hidden {
   display: none;
+}
+
+.header {
+  width: 98%;
+  position: fixed;
+  top: 0px;
+  font-size: 60px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  color: #8d8cc5;
+  height: min-content;
+  border-bottom: 1px solid #8d8cc5;
+}
+
+.footer {
+  position: fixed;
+  display: flex;
+  height: 50px;
+  width: 98%;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0px;
+  box-sizing: border-box;
+  border-top: #8d8cc5 1px solid;
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.footer__menuList {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.footer__menuList-github {
+  background-image: url("../images/github-alt-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s;
+}
+.footer__menuList-linkedin {
+  background-image: url("../images/linkedin-in-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s;
+}
+.footer__menuList-mail {
+  background-image: url("../images/envelope-solid.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s;
+}
+.footer__menuList-twitter {
+  background-image: url("../images/twitter-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s;
+}
+.footer__menuList-codepen {
+  background-image: url("../images/codepen-brands.svg");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  list-style-type: none;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  transition: all ease 1s;
+}
+.footer__menuList-access {
+  padding: 10px;
+  text-decoration: none;
+}
+
+.small {
+  font-family: "VT323", monospace;
+  font-size: 15px;
+  color: #8d8cc5;
 }
